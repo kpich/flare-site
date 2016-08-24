@@ -1,0 +1,38 @@
+
+{
+  "resources": [
+  {
+    "url": "http://videolectures.net/deeplearning2016_montreal/",
+    "link_description": "Deep Learning Summer School 2016 Video Lectures",
+    "year": "2016",
+    "description":
+      "A set of 1-2 hour introductory lectures by impressive people."
+  },
+  {
+    "url": "http://www.deeplearningbook.org/",
+    "link_description": "The Goodfellow et al. Deep Learning book",
+    "year": "2016",
+    "description": "A nice comprehensive textbook about modern deep learning."
+  },
+  {
+    "url": "https://www.udacity.com/course/deep-learning--ud730",
+    "link_description": "A Udacity MOOC by Vincent Vanhoucke",
+    "year": "2015-2016",
+    "description": "Vincent Vanhoucke from Google did a pretty good MOOC on Deep Learning with TensorFlow."
+  },
+  {
+    "url": "http://u.cs.biu.ac.il/~yogo/nnlp.pdf",
+    "link_description": "Yoav Goldberg's \"A Primer on Neural Network Models for Natural Language Processing\"",
+    "year": "2015",
+    "description": "The lay of the land of NNs for NLP in late 2015."
+  },
+  {
+    "url": "https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/",
+    "link_description": "Course lectures by Nando de Freitas",
+    "year": "2014-2015",
+    "description": "Nando de Freitas (from Oxford and DeepMind) gave some pretty nice lectures about deep learning with Torch."
+  }
+  ]
+}
+
+

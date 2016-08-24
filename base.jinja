@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/flare.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<title>Feature Learning and Representation Engineering</title>
+</head>
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<div class="container padded">
+  <div class="page-header">
+    <h1>FLARE</h1>
+    <p class="lead">
+      An anonymous support group for heavy users of gradients and
+      nonlinearities.</p>
+      <p> <a href="https://groups.google.com/forum/#!forum/ut-flare"> We have a
+        Google Group. </a>
+  </div>
+
+  <div class="row">
+    <h3>Some resources to get a grounding in Deep Learning</h3>
+
+    {% for resource in resources %}
+    <div class="row padded">
+      <div class="col-md-4">
+        <a href="{{ resource.url }}">
+          {{ resource.link_description }}
+        </a>
+      </div>
+      <div class="col-md-1">
+        {{ resource.year }}
+      </div>
+      <div class="col-md-4">
+        {{ resource.description }}
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div> <!-- outer row -->
+
+  <div class="row">
+    <h3> Deep Learning at UT </h3>
+    <a href="http://www.cs.utexas.edu/~ai-lab/area-view.php?AreaID=180">
+      Here is a list
+    </a> of some of the Deep Learning work going on within the
+    AI Lab. A buch of <a href="http://www.cs.utexas.edu/~grauman/research/pubs.html">
+      Kristen Grauman's lab </a> uses NNs for stuff too.
+  </div>
+</div>
+
+</body>
+</html>
