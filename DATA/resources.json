@@ -1,4 +1,3 @@
-
 {
   "resources": [
   {
@@ -31,6 +30,13 @@
     "link_description": "Course lectures by Nando de Freitas",
     "year": "2014-2015",
     "description": "Nando de Freitas (from Oxford and DeepMind) gave some pretty nice lectures about deep learning with Torch."
+  },
+  {
+    "url": "http://colah.github.io/",
+    "link_description": "Colah's blog",
+    "year": "2014-2015",
+    "description":
+      "A great set of blog posts with visualizations for intuition."
   }
   ]
 }

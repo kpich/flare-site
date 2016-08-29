@@ -4,45 +4,29 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/flare.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<title>Feature Learning and Representation Engineering</title>
+  <link rel="stylesheet" href="css/flare.css">
+  <title>Feature Learning and Representation Engineering</title>
 </head>
 <body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<div class="container padded">
-  <div class="page-header">
+<div class="container">
+  <div class="header">
     <h1>FLARE</h1>
     <p class="lead">
       An anonymous support group for heavy users of gradients and
-      nonlinearities.</p>
-      <p> <a href="https://groups.google.com/forum/#!forum/ut-flare"> We have a
-        Google Group. </a>
+      nonlinearities.
+    </p>
   </div>
 
   <div class="row">
-    <h3>Some resources to get a grounding in Deep Learning</h3>
-
-    {% for resource in resources %}
-    <div class="row padded">
-      <div class="col-md-4">
-        <a href="{{ resource.url }}">
-          {{ resource.link_description }}
-        </a>
-      </div>
-      <div class="col-md-1">
-        {{ resource.year }}
-      </div>
-      <div class="col-md-4">
-        {{ resource.description }}
-      </div>
-    </div>
-
-    {% endfor %}
-
-  </div> <!-- outer row -->
+    <h2>Current Meetings</h2>
+    <p>
+      Most of our business is conducted in the
+      <a href="https://groups.google.com/forum/#!forum/ut-flare">Google Group</a>.
+      If you're interested in joining, please subscribe!
+    </p>
+    <p>Fall 2016: Meeting place and destination TBD.</p>
+  </div>
 
   <div class="row">
     <h3> Deep Learning at UT </h3>
@@ -53,6 +37,51 @@
       Kristen Grauman's lab </a> uses NNs for stuff too, as does the
     <a href="http://nn.cs.utexas.edu/pub-list.php">NNRG</a>.
   </div>
+
+  <div class="row">
+    <h3>Some resources to get a grounding in Deep Learning</h3>
+    <table class="resources">
+      <tr>
+        <th class="year">Year</th>
+        <th class="title">Link / Description</th>
+        <!--<th class="notes">Notes</th>-->
+      </tr>
+    {% for resource in resources %}
+      <tr>
+        <td class="year">{{ resource.year }}</td>
+        <td class="title">
+          <p><a href="{{ resource.url }}">{{ resource.link_description }}</a></p>
+          <p class="description">
+            {{ resource.description }}
+          </p>
+        </td>
+      </tr>
+    {% endfor %}
+    </table>
+
+  </div>
+
+
+  <div class="row">
+    <h3>Previously Read Papers</h3>
+    <p>Here are the previous papers we've read in FLARE. This list often grows stale.</p>
+    <table class="previouspapers">
+      <tr>
+        <th class="dateread">Date Read</th>
+        <th class="year">Year</th>
+        <th class="title">Title / Suggestor Notes</th>
+      </tr>
+      {% for paper in previous_papers %}
+      <tr>
+        <td class="dateread">{{ paper.dateread }}</td>
+        <td class="year">{{ paper.year }}</td>
+        <td class="title">
+          <p><a href="{{ paper.url }}">{{ paper.title }}</a></p>
+          <p class="description">{{ paper.description }}</p>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
 </div>
 
 </body>

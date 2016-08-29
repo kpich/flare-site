@@ -1,4 +1,77 @@
+.header {
+  border: none;
+  padding: 3em;
+  margin: none;
+  text-align: center;
+  color: white;
+  background: #333;
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.row {
+  border-bottom: 1px dashed #999;
+  padding: 2em;
+  margin: 1em;
+}
+
+h1 {
+  color: darkorange;
+  font-size: 5em;
+}
+
+
+.lead {
+  text-align: center;
+}
+
+.row {
+  padding: 1em 0;
+}
+
+body {
+  color: #333;
+}
 
 .padded {
   padding: 2em;
+}
+
+table {
+  margin: 1em;
+  width: 100%;
+}
+
+th {
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+td, th {
+  padding: .5em 0.25em;
+}
+
+table tr:nth-child(even) {
+  background: #EEE;
+}
+
+.dateread {
+  text-align: center;
+  width: 6em;
+}
+
+.year {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.notes {
+  color: #666;
+}
+
+.description {
+  color: #999;
 }
