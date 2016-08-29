@@ -18,13 +18,13 @@ PAPERS_CSV =  os.path.join(DATA_DIR, "papers.csv")
 
 previous_papers = []
 with open(PAPERS_CSV) as csvfile:
-    csvreader = csv.reader(csvfile, delimiter=',', quotechar='"')
-    header = csvreader.next()
-    for row in csvreader:
-        paper = dict(zip(header, to_utf8(row)))
-        if not paper['dateread']:
-            paper['dateread'] = '-'
-        previous_papers.append(paper)
+  csvreader = csv.reader(csvfile, delimiter=',', quotechar='"')
+  header = csvreader.next()
+  for row in csvreader:
+    paper = dict(zip(header, to_utf8(row)))
+    if not paper['dateread']:
+      paper['dateread'] = '-'
+    previous_papers.append(paper)
 
 def main():
   with open(BASE_TEMPLATE_FILE, 'r') as inf:
