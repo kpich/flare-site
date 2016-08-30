@@ -1,6 +1,9 @@
 #!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+# vim: ts=2 sts=2 sw=2 et
 
 from jinja2 import Template
+import sys
 import json
 import os
 import csv
@@ -32,8 +35,9 @@ def main():
   template = Template(base_template)
   with open(RESOURCES_FNAME, 'r') as inf:
     resources = json.load(inf)['resources']
-  print(template.render(resources=resources, previous_papers=previous_papers))
+  sys.stdout.write(template.render(resources=resources, previous_papers=previous_papers).encode('utf-8'))
 
 if __name__ == '__main__':
-  print('Content-type: text/html; charset=utf-8\n')
+  sys.stdout.write('Content-type: text/html; charset=utf-8\n\n')
   main()
+
