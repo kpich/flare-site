@@ -1,4 +1,13 @@
 dateread,year,title,description,url
+2016-10-26,2016,WaveNet: A Generative Model for Raw Audio,"Modern" paper,https://arxiv.org/pdf/1609.03499v2.pdf
+2016-10-26,2016,Pixel Recurrent Neural Networks,"Classic" paper,https://arxiv.org/pdf/1601.06759v3.pdf
+2016-10-19,2015,Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks,Modern paper <a href="http://goodfeli.github.io/slides/2016-10-3-CS294.pdf">Slides</a>,https://arxiv.org/pdf/1511.06434v2.pdf
+2016-10-19,2014,Generative Adversarial Nets,Classic paper: GANs. <a href="http://goodfeli.github.io/slides/2014_nips_workshop_invited.pdf">Slides</a>,https://arxiv.org/pdf/1406.2661v1.pdf
+2016-09-28,2015,Modern paper: Variational Inference with Normalizing Flows,Presented by Wesley <a href="extra/slides-deepvarinf.pdf">Slides</a>,http://arxiv.org/pdf/1505.05770v6.pdf
+2016-09-28,2013,Auto-Encoding Variational Bayes,Classic paper: AE VB,http://arxiv.org/pdf/1312.6114v10.pdf
+2016-09-14,2016,Layer Normalization,Modern paper: Layer Norm,https://arxiv.org/pdf/1607.06450v1.pdf
+2016-09-14,2015,Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift,Classic paper: Batchnorm,https://arxiv.org/pdf/1502.03167v3.pdf
+2016-05-12,2015,Deep Residual Learning for Image Recognition,Resnet,https://arxiv.org/pdf/1512.03385v1.pdf
 2016-04-29,2016,Recurrent Batch Normalization,SR: Apply BN after *every* timestep  in  RNN. Works dramatically.,http://arxiv.org/pdf/1603.09025v4.pdf
 2016-04-15,2016,Learning to Communicate to Solve Riddles with Deep Distributed Recurrent Q-Networks,SR: they present a deep-Q+LSTM which is able to solve some classic riddles. First combination of deep-Q reinforcement with an LSTM that I've seen,http://arxiv.org/pdf/1602.02672v1.pdf
 2016-03-04,2015,Net2Net: Accelerating Learning via Knowledge Transfer,"Dinesh: On the lines of the ""Model Compression"" idea, but now trying to transfer information from a small easy-to-train network to accelerate the training of a larger network",http://arxiv.org/pdf/1511.05641v3.pdf

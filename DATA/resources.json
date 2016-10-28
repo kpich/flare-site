@@ -1,6 +1,13 @@
 {
   "resources": [
   {
+    "url": "http://distill.pub/",
+    "link_description": "Distill: Animated graphics explaining NNs",
+    "year": "2016",
+    "description":
+      "Chris Olah's newer blog for explaining DNN papers."
+  },
+  {
     "url": "http://videolectures.net/deeplearning2016_montreal/",
     "link_description": "Deep Learning Summer School 2016 Video Lectures",
     "year": "2016",
