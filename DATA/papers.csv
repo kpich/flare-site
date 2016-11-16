@@ -1,4 +1,6 @@
 dateread,year,title,description,url
+2016-11-16,2015,Continuous control with deep reinforcement learning,Second reading. <a href="extra/Deep-RL.pdf">Slides</a>.,https://arxiv.org/pdf/1509.02971v5.pdf
+2016-11-16,2015,Human-level control through deep reinforcement learning,First Reading,https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf
 2016-10-26,2016,WaveNet: A Generative Model for Raw Audio,"Modern" paper,https://arxiv.org/pdf/1609.03499v2.pdf
 2016-10-26,2016,Pixel Recurrent Neural Networks,"Classic" paper,https://arxiv.org/pdf/1601.06759v3.pdf
 2016-10-19,2015,Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks,Modern paper <a href="http://goodfeli.github.io/slides/2016-10-3-CS294.pdf">Slides</a>,https://arxiv.org/pdf/1511.06434v2.pdf
